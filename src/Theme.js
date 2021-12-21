@@ -3,6 +3,7 @@ import { useState } from 'react'
 
 const Theme = () => {
     
+    // THIS SHOULD BE IN APP.JS, AND THEN PASS IN THEME AS PROP TO COMPONENTS THAT NEED IT
     const [theme, setTheme] = useState('light')
     
     return (
