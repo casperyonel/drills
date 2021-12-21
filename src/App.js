@@ -1,8 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+ 
 import './App.css';
 import { useState } from 'react'
 import Comp1 from './Comp1';
+import Practice from './Practice';
+import Practice2 from './Practice2';
 
 function App() {
   
@@ -15,7 +17,8 @@ function App() {
       <input type="text" onChange={(e) => setText(e.target.value)}/>
 
        <div>{text}</div>
-
+        <Practice title="passing a prop"/>
+        <Practice2 />
        <Comp1 /> 
     </div>
   );

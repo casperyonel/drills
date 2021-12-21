@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <h1>My to-do list:</h1>
       
-      <input placeholder="Enter new task" type="text"   onChange={e => setUserInput(e.target.value)}/>
+      <input placeholder="Enter new task" type="text" onChange={e => setUserInput(e.target.value)}/>
       
       <input type="submit" value="Add" onClick={handleClick} />
       
