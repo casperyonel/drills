@@ -6,8 +6,6 @@ function App() {
   
   const [task, setTask] = useState([])
   const [userInput, setUserInput] = useState([])
-
-  
   
   function handleClick() {
     setTask([...task, userInput])
