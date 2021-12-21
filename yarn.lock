@@ -8750,6 +8750,11 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
+"react-placeholder@^4.1.0":
+  "integrity" "sha512-z1HGD86NWJTYTQumHsmGH9jkozv4QHa9dju/vHVUd4f1svu23pf5v7QoBLBfs3kA1S9GLJaCeRMHLbO2SCdz5A=="
+  "resolved" "https://registry.npmjs.org/react-placeholder/-/react-placeholder-4.1.0.tgz"
+  "version" "4.1.0"
+
 "react-scripts@3.4.0":
   "integrity" "sha512-pBqaAroFoHnFAkuX+uSK9Th1uEh2GYdGY2IG1I9/7HmuEf+ls3lLCk1p2GFYRSrLMz6ieQR/SyN6TLIGK3hKRg=="
   "resolved" "https://registry.npmjs.org/react-scripts/-/react-scripts-3.4.0.tgz"
@@ -8810,7 +8815,7 @@
   optionalDependencies:
     "fsevents" "2.1.2"
 
-"react@*", "react@^16.12.0", "react@^16.14.0":
+"react@*", "react@^16.12.0", "react@^16.14.0", "react@^16.8.0 || ^17":
   "integrity" "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
   "version" "16.14.0"
