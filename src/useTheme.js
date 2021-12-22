@@ -17,6 +17,6 @@ const useTheme = (startingTheme = 'light') => {
         theme,
         setTheme: validateTheme, // This function makes it auto light theme
     }
-}
+} // .
 
 export default useTheme;
