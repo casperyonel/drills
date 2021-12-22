@@ -4,9 +4,6 @@ import ReactPlaceholder from 'react-placeholder';
 import Loading, { REQUEST_STATUS } from './Loading'
  
 const Practice = ({ title }) => {
-
-        
-
         <div>
             <ReactPlaceholder 
                 type="media" 
@@ -15,7 +12,7 @@ const Practice = ({ title }) => {
                     <h2>{title}</h2>
             </ReactPlaceholder>
         </div>
-    )
+
 }
 
 export default Practice

@@ -17,7 +17,7 @@ const Loading = () => {
     useEffect(() => {
         async function delayFunc() {
             try {
-                await setTimeout(2000)
+                await setTimeout(2000) //  CHANGE THIS
                 setRequestStatus(REQUEST_STATUS.SUCCESS)
             } catch {
                 setRequestStatus(REQUEST_STATUS.FAILURE)
